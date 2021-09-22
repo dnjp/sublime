@@ -1,0 +1,20 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"JSCustom",
+		"LSP",
+		"LSP-jdtls",
+		"LSP-json",
+		"LSP-typescript",
+		"LSP-yaml",
+		"MarkdownPreview",
+		"Package Control",
+		"Terrafmt",
+		"Terraform",
+		"TypeScript Syntax",
+	],
+}

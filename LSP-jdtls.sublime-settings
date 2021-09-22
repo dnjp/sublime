@@ -1,0 +1,4 @@
+// Settings in here override those in "LSP-jdtls/LSP-jdtls.sublime-settings"
+{
+	"settings.java.home": " /Library/Java/JavaVirtualMachines/adoptopenjdk-16.jdk/Contents/Home"
+}

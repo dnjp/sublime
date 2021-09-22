@@ -1,0 +1,9 @@
+{
+	"shell_cmd": "go test -race -v ${file_path}...",
+	"cancel": {
+		"kill": true
+	},
+	"selector": "source.go",
+	"working_dir": "${file_path}",
+	"file_regex": "([a-zA-Z].*):([0-9]+):?([0-9]+)?:? (.*)$"
+}

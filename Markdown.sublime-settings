@@ -1,0 +1,14 @@
+// These settings override both User and Default settings for the Markdown syntax
+{
+	"draw_centered": false,
+	"draw_indent_guides": false,
+	"extensions": [
+		"md"
+	],
+	"gutter": false,
+	"line_numbers": false,
+	"rulers": [],
+	"scroll_past_end": true,
+	"wrap_width": 80,
+	"word_wrap": true
+}

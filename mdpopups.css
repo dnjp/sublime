@@ -1,0 +1,29 @@
+html {
+  --mdpopups-fg: #000;
+  --mdpopups-link: #000;
+  --mdpopups-font-mono:  "Menlo";
+  font-family:  'Go Regular';
+  font-size:  12px;
+  --mdpopups-admon-fg: var(--foreground);
+  --mdpopups-admon-info-fg: var(--foreground);
+  --mdpopups-admon-error-fg: var(--foreground);
+  --mdpopups-admon-warning-fg: var(--foreground);
+  --mdpopups-admon-success-fg: var(--foreground);
+  --mdpopups-admon-bg: var(--background);
+  --mdpopups-admon-info-bg: var(--background);
+  --mdpopups-admon-error-bg: var(--background);
+  --mdpopups-admon-warning-bg: var(--background);
+  --mdpopups-admon-success-bg: var(--background);
+  --mdpopups-admon-accent: color(var(--background) blend(var(--foreground) 50%));
+  --mdpopups-admon-title-fg:  var(--foreground);
+  --mdpopups-admon-info-title-fg:  var(--foreground);
+  --mdpopups-admon-error-title-fg:  var(--foreground);
+  --mdpopups-admon-warning-title-fg:  var(--foreground);
+  --mdpopups-admon-success-title-fg:  var(--foreground);
+  --mdpopups-admon-info-accent: #000;
+  --mdpopups-admon-error-accent: color(var(--background) blend(var(--redish) 50%));
+  --mdpopups-admon-warning-accent: color(var(--background) blend(var(--orangish) 50%));
+  --mdpopups-admon-success-accent: color(var(--background) blend(var(--greenish) 50%));
+  --mdpopups-kbd-fg: var(--background);
+  --mdpopups-kbd-bg: var(--foreground);
+}
