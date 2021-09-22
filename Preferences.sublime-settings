@@ -14,8 +14,8 @@
 	//
 	// Fonts
 	//
-	"font_face": "Lucida Grande",
-	// "font_face": "Go Regular",
+	// "font_face": "Lucida Grande",
+	"font_face": "Go Regular",
 	// make fonts _much_ more clear on macos
 	"font_options": [
 		"gray_antialias"
