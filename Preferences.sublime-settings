@@ -10,12 +10,13 @@
 	"indent_guide_options": [],
 	"draw_indent_guides": false,
 	// color
-	"color_scheme": "Packages/User/Focus.sublime-color-scheme",
+	"color_scheme": "Packages/Writer Color Scheme/Writer.sublime-color-scheme",
 	//
 	// Fonts
 	//
 	// "font_face": "Lucida Grande",
-	"font_face": "Go Regular",
+	// "font_face": "Go Regular",
+	"font_face": "iA Writer Quattro",
 	// make fonts _much_ more clear on macos
 	"font_options": [
 		"gray_antialias"
@@ -23,7 +24,10 @@
 	"theme_font_options": [
 		"gray_antialias"
 	],
-	"font_size": 15.5,
+	"font_size": 15,
+	// text
+	"word_wrap": "auto",
+	"wrap_width": 80,
 	// popups
 	"mdpopups.user_css": "Packages/User/mdpopups.css",
 	"mdpopups.default_style": true,
@@ -52,9 +56,9 @@
 	// 	80
 	// ],
 	// caret
-	"caret_extra_top": 1,
-	"caret_extra_bottom": 1,
-	"caret_extra_width": 1,
+	"caret_extra_top": 2,
+	"caret_extra_bottom": 2,
+	"caret_extra_width": 2,
 	// visual
 	"fold_buttons": false,
 	"auto_hide_status_bar": false,
@@ -71,6 +75,7 @@
 	"lsp_format_on_save": true,
 	// packages
 	"ignored_packages": [
+		"Markdown",
 		"Vintage",
 	],
 	"theme": "Default.sublime-theme",

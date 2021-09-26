@@ -2,16 +2,17 @@
 {
 	"variables": {},
 	"rules": [
-		{
-			"scope": "markup.unnecessary.lsp",
-			"foreground": "#000",
-			"background": "color(var(blue3) alpha(0.9))"
-		},
+		// {
+		// 	"scope": "markup.unnecessary.lsp",
+		// 	"foreground": "#000",
+		// 	"background": "color(var(blue3) alpha(0.9))"
+		// },
 		{
 			"class": "sidebar_label",
 			"font.size": 14,
 			// "font.face": "Lucida Grande",
-			"font.face": "Go Regular",
+			// "font.face": "Go Regular",
+			// "font.face": "iA Writer Quattro",
 		}
 	]
 }

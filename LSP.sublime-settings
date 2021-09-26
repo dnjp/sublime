@@ -1,8 +1,26 @@
 {
 	"document_highlight_style": "",
+	"inhibit_word_completions": true, // might not be a good idea
+	"lsp_code_actions_on_save": {
+		"source.fixAll": true,
+		"source.organizeImports": true,
+	},
+	"show_references_in_quick_panel": true,
 	"clients": {
+		"clojure-lsp": {
+			"command": [
+				"clojure-lsp"
+			],
+			"enabled": true,
+			"initializationOptions": {},
+			"selector": "source.clojure",
+		},
 		"gopls": {
-			"enabled": true
+			"enabled": true,
+			"settings": {
+				"gopls.usePlaceholders": true,
+				// "gopls.completeUnimported": true,
+			},
 		},
 		"jdtls": {
 			"command": [
@@ -38,6 +56,13 @@
 		},
 		"clangd": {
 			"enabled": false
+		},
+		"LSP-pyright": {
+			"settings": {
+				// Put your settings here
+				"venvPath": "/Users/daniel/.pyenv/versions",
+				// "venv": "myenv"
+			}
 		}
 	}
 }
