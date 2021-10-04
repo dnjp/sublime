@@ -55,14 +55,17 @@
 			// ]
 		},
 		"clangd": {
-			"enabled": false
+			"enabled": false,
 		},
 		"LSP-pyright": {
 			"settings": {
 				// Put your settings here
 				"venvPath": "/Users/daniel/.pyenv/versions",
 				// "venv": "myenv"
-			}
-		}
-	}
+			},
+		},
+		"LSP-yaml": {
+			"enabled": true,
+		},
+	},
 }

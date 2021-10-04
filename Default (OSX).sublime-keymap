@@ -84,7 +84,7 @@
 	},
 	{
 		"keys": [
-			"super+b",
+			"super+shift+b",
 		],
 		"command": "toggle_side_bar"
 	},
@@ -150,19 +150,72 @@
 			"parser": "markdown"
 		}
 	},
+	// {
+	// 	"keys": [
+	// 		"super+[",
+	// 	],
+	// 	"command": "focus_neighboring_group",
+	// 	"args": {
+	// 		"forward": false
+	// 	}
+	// },
+	// {
+	// 	"keys": [
+	// 		"super+]",
+	// 	],
+	// 	"command": "focus_neighboring_group"
+	// },
 	{
 		"keys": [
-			"super+[",
+			"ctrl+alt+t"
 		],
-		"command": "focus_neighboring_group",
+		"command": "terminus_open",
 		"args": {
-			"forward": false
+			"post_window_hooks": [
+				[
+					"carry_file_to_pane",
+					{
+						"direction": "down"
+					}
+				]
+			]
 		}
 	},
 	{
 		"keys": [
-			"super+]",
+			"super+a"
 		],
-		"command": "focus_neighboring_group"
+		"command": "sbp_move_to_paragraph",
+		"args": {
+			"direction": -1
+		},
+		"context": [
+			{
+				"key": "sbp_use_super_bindings"
+			}
+		]
 	},
+	{
+		"keys": [
+			"super+e"
+		],
+		"command": "sbp_move_to_paragraph",
+		"args": {
+			"direction": 1
+		},
+		"context": [
+			{
+				"key": "sbp_use_super_bindings"
+			}
+		]
+	},
+	// {
+	// 	"keys": [
+	// 		"ctrl+space"
+	// 	],
+	// 	"command": "sbp_set_mark",
+	// 	"args": {
+	// 		"activate_mark": true
+	// 	}
+	// },
 ]

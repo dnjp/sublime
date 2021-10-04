@@ -1,0 +1,7 @@
+{
+	"sbp_use_super_bindings": true,
+	"sbp_use_alt_bindings": false,
+	"sbp_ensure_newline_at_eof_on_save": true,
+	"sbp_trim_trailing_white_space_on_save": true,
+	"sbp_use_internal_complete_all_buffers": true,
+}

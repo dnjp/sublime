@@ -16,7 +16,8 @@
 	//
 	// "font_face": "Lucida Grande",
 	// "font_face": "Go Regular",
-	"font_face": "iA Writer Quattro",
+	// "font_face": "iA Writer Quattro",
+	"font_face": "iA Writer Mono S",
 	// make fonts _much_ more clear on macos
 	"font_options": [
 		"gray_antialias"
@@ -70,6 +71,13 @@
 		"*.log"
 	],
 	"auto_close_tags": true,
+	"folder_exclude_patterns": [
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules"
+	],
 	// editing
 	"drag_text": false,
 	"lsp_format_on_save": true,
