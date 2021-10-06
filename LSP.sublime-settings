@@ -1,4 +1,8 @@
 {
+	// "log_debug": true,
+	// "log_server": [
+	// 	"panel"
+	// ],
 	"document_highlight_style": "",
 	"inhibit_word_completions": true, // might not be a good idea
 	"lsp_code_actions_on_save": {
@@ -17,6 +21,10 @@
 		},
 		"gopls": {
 			"enabled": true,
+			"selector": "source.go",
+			"command": [
+				"gopls",
+			],
 			"settings": {
 				"gopls.usePlaceholders": true,
 				// "gopls.completeUnimported": true,
@@ -55,7 +63,7 @@
 			// ]
 		},
 		"clangd": {
-			"enabled": false,
+			"enabled": true,
 		},
 		"LSP-pyright": {
 			"settings": {

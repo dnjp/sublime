@@ -37,7 +37,7 @@
 		],
 		"context": [
 			{
-				"key": "lsp.session_with_capability",
+				"key": "lsp.session_with_capayility",
 				"operator": "equal",
 				"operand": "referencesProvider"
 			},
@@ -218,4 +218,10 @@
 	// 		"activate_mark": true
 	// 	}
 	// },
+	{
+		"keys": [
+			"alt+super+b"
+		],
+		"command": "build"
+	},
 ]

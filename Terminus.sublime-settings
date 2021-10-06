@@ -1,9 +1,9 @@
 {
-	"theme": "default",
+	"theme": "adaptive",
 	"view_settings": {
-		"font_face": "Menlo",
-		"font_size": 15
-	}
+		"font_face": "iA Writer Mono S",
+		"font_size": 15,
+	},
 	// "theme": "user",
 	// "user_theme_colors": {
 	// 	"background": "#ffffff",
