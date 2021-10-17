@@ -1,0 +1,5 @@
+" Type :help nv for help.
+set ignorecase
+
+" make ex commands more ergonomic
+nnoremap ; :

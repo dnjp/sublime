@@ -10,14 +10,20 @@
 	"indent_guide_options": [],
 	"draw_indent_guides": false,
 	// color
-	"color_scheme": "Packages/Writer Color Scheme/Writer.sublime-color-scheme",
+	// "color_scheme": "Packages/Writer Color Scheme/Writer.sublime-color-scheme",
+	"color_scheme": "Packages/User/Reeder.sublime-color-scheme",
 	//
 	// Fonts
 	//
 	// "font_face": "Lucida Grande",
+	// "font_face": "Lucida Sans Regular",
 	// "font_face": "Go Regular",
+	// "font_face": "Go Mono",
 	"font_face": "iA Writer Quattro",
+	// "font_face": "SF Pro Regular",
+	// "font_face": "Menlo",
 	// "font_face": "iA Writer Mono S",
+	// "font_face": "Bitstream Vera Sans",
 	// make fonts _much_ more clear on macos
 	"font_options": [
 		"gray_antialias"
@@ -25,7 +31,7 @@
 	"theme_font_options": [
 		"gray_antialias"
 	],
-	"font_size": 14.5,
+	"font_size": 15,
 	// text
 	"word_wrap": "auto",
 	"wrap_width": 80,
@@ -43,7 +49,7 @@
 	// ui
 	"inactive_sheet_dimming": false,
 	"scroll_speed": 0.5,
-	"line_numbers": false,
+	"line_numbers": true,
 	"gutter": true,
 	"show_syntax": false,
 	"trim_trailing_white_space_on_save": "all",
@@ -85,9 +91,55 @@
 	"ignored_packages": [
 		"Emacs Pro Essentials",
 		"Markdown",
+		"Six",
 		"Vintage",
+		"Vintageous",
 	],
 	"theme": "Default.sublime-theme",
 	"dark_theme": "Default.sublime-theme",
 	"light_theme": "Default.sublime-theme",
+	//
+	//
+	// vi mode
+	//
+	//
+	"vintageous_use_ctrl_keys": true,
+	"vintageous_default_mode": "",
+	"vintageous_reset_mode_when_switching_tabs": true,
+	"vintageous_use_sys_clipboard": true,
+	//
+	// plugins
+	//
+	"vintageous_enable_sneak": false,
+	"vintageous_enable_sublime": true,
+	"vintageous_bell_color_scheme": "light",
+	//
+	// keybindings
+	//
+	// Any keybinding defined in the default keymap file that has
+	// a "nv_handle_key" context constraint can be configured to delegate
+	// back to ST.
+	// See https://github.com/NeoVintageous/NeoVintageous/blob/master/Default.sublime-keymap
+	"vintageous_handle_keys": {
+		// The valid mode prefixes are:
+		//
+		//     n_ - Normal
+		//     i_ - Insert
+		//     v_ - Visual
+		//     V_ - Visual line
+		//     b_ - Visual block
+		//     s_ - Select
+		"i_<C-w>": true,
+		"v_<C-w>": true,
+	},
+	//
+	// colors
+	//
+	"neovintageous_search_cur_style": "fill",
+	"neovintageous_search_inc_style": "fill",
+	"neovintageous_search_occ_style": "fill",
+	//
+	// version
+	//
+	"neovintageous_build_version": 11100,
 }

@@ -12,6 +12,8 @@
 			"font.size": 14,
 			// "font.face": "Lucida Grande",
 			// "font.face": "Go Regular",
+			// "font.face": "SF Pro Regular",
+			"font.face": "Helvetica Neue",
 			// "font.face": "iA Writer Quattro",
 		}
 	]

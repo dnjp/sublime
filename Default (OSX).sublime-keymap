@@ -45,45 +45,6 @@
 	},
 	{
 		"keys": [
-			"ctrl+w"
-		],
-		"command": "delete_word",
-		"args": {
-			"forward": false,
-			"sub_words": true
-		}
-	},
-	{
-		"keys": [
-			"ctrl+u"
-		],
-		"command": "run_macro_file",
-		"args": {
-			"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"
-		}
-	},
-	{
-		"keys": [
-			"alt+b"
-		],
-		"command": "move",
-		"args": {
-			"by": "subwords",
-			"forward": false
-		}
-	},
-	{
-		"keys": [
-			"alt+f"
-		],
-		"command": "move",
-		"args": {
-			"by": "subword_ends",
-			"forward": true
-		}
-	},
-	{
-		"keys": [
 			"super+shift+b",
 		],
 		"command": "toggle_side_bar"
@@ -150,21 +111,6 @@
 			"parser": "markdown"
 		}
 	},
-	// {
-	// 	"keys": [
-	// 		"super+[",
-	// 	],
-	// 	"command": "focus_neighboring_group",
-	// 	"args": {
-	// 		"forward": false
-	// 	}
-	// },
-	// {
-	// 	"keys": [
-	// 		"super+]",
-	// 	],
-	// 	"command": "focus_neighboring_group"
-	// },
 	{
 		"keys": [
 			"ctrl+alt+t"
@@ -209,15 +155,6 @@
 			}
 		]
 	},
-	// {
-	// 	"keys": [
-	// 		"ctrl+space"
-	// 	],
-	// 	"command": "sbp_set_mark",
-	// 	"args": {
-	// 		"activate_mark": true
-	// 	}
-	// },
 	{
 		"keys": [
 			"alt+super+b"

@@ -3,6 +3,7 @@
 	"in_process_packages":
 	[
 	],
+	"install_prereleases": ["NeoVintageous"],
 	"installed_packages":
 	[
 		"Alabaster Color Scheme",
@@ -18,6 +19,7 @@
 		"LSP-yaml",
 		"MarkdownEditing",
 		"MarkdownPreview",
+		"NeoVintageous",
 		"Origami",
 		"Package Control",
 		"Parinfer",

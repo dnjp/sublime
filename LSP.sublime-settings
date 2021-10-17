@@ -32,35 +32,12 @@
 		},
 		"jdtls": {
 			"command": [
-				"java",
-				"--add-modules=ALL-SYSTEM",
-				"--add-opens",
-				"java.base/java.util=ALL-UNNAMED",
-				"--add-opens",
-				"java.base/java.lang=ALL-UNNAMED",
-				"-Declipse.application=org.eclipse.jdt.ls.core.id1",
-				"-Dosgi.bundles.defaultStartLevel=4",
-				"-Declipse.product=org.eclipse.jdt.ls.core.product",
-				"-Dfile.encoding=UTF-8",
-				"-DwatchParentProcess=true", // false on windows, true other OSs
-				"-Xmx1G",
-				"-XX:+UseG1GC",
-				"-XX:+UseStringDeduplication",
-				"-jar",
-				"<path_to>/jdt-language-server-1.1.2-202105191944/plugins/org.eclipse.equinox.launcher_1.6.100.v20201223-0822.jar", // 1. replace the PATH/TO with your own 2. replace * with the file version
-				"-configuration",
-				"<path_to>/jdt-language-server-1.1.2-202105191944/config_mac", // 1. replace the PATH/TO with your own 2. choose the config folder based on the OS
-				"-data",
-				"<replace_your_$TMPDIR_here>/T/<project_base_name>/jdt_ws" // replace <TEMP_DIR> with the temp folder in your system. macOS: echo $TMPDIR
+				"/Users/daniel/.local/bin/jdtls",
+				// "-configuration",
+				// "/Users/daniel/.local/opt/jdtls-launcher/jdtls/config_mac"
 			],
 			"enabled": true,
 			"selector": "source.java",
-			// "scopes": [
-			// 	"source.java"
-			// ],
-			// "syntaxes": [
-			// 	"Packages/Java/Java.sublime-syntax"
-			// ]
 		},
 		"clangd": {
 			"enabled": true,
