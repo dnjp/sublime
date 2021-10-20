@@ -3,3 +3,8 @@ set ignorecase
 
 " make ex commands more ergonomic
 nnoremap ; :
+
+nnoremap Q :q!<CR>
+nnoremap W :LspSave<CR>
+nnoremap gd :LspSymbolDefinition<CR>
+nnoremap gr :LspSymbolReferences<CR>

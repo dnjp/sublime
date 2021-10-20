@@ -1,49 +1,5 @@
 [
 	{
-		"command": "lsp_document_symbols",
-		"keys": [
-			"alt+r"
-		],
-		"context": [
-			{
-				"key": "lsp.session_with_capability",
-				"operator": "equal",
-				"operand": "documentSymbolProvider"
-			},
-		]
-	},
-	{
-		"command": "lsp_symbol_definition",
-		"keys": [
-			"alt+d"
-		],
-		"context": [
-			{
-				"key": "lsp.session_with_capability",
-				"operator": "equal",
-				"operand": "definitionProvider"
-			},
-			{
-				"key": "auto_complete_visible",
-				"operator": "equal",
-				"operand": false
-			}
-		]
-	},
-	{
-		"command": "lsp_symbol_references",
-		"keys": [
-			"ctrl+primary+r"
-		],
-		"context": [
-			{
-				"key": "lsp.session_with_capayility",
-				"operator": "equal",
-				"operand": "referencesProvider"
-			},
-		]
-	},
-	{
 		"keys": [
 			"super+shift+b",
 		],
@@ -63,43 +19,9 @@
 	},
 	{
 		"keys": [
-			"primary+o"
-		],
-		"command": "jump_back"
-	},
-	{
-		"keys": [
-			"primary+shift+o"
-		],
-		"command": "jump_forward"
-	},
-	{
-		"keys": [
 			"alt+`"
 		],
 		"command": "toggle_terminus_panel"
-	},
-	{
-		"keys": [
-			"primary+ctrl+p"
-		],
-		"command": "move",
-		"args": {
-			"by": "stops",
-			"empty_line": true,
-			"forward": false
-		}
-	},
-	{
-		"keys": [
-			"primary+ctrl+n"
-		],
-		"command": "move",
-		"args": {
-			"by": "stops",
-			"empty_line": true,
-			"forward": true
-		}
 	},
 	{
 		"keys": [
@@ -126,34 +48,6 @@
 				]
 			]
 		}
-	},
-	{
-		"keys": [
-			"super+a"
-		],
-		"command": "sbp_move_to_paragraph",
-		"args": {
-			"direction": -1
-		},
-		"context": [
-			{
-				"key": "sbp_use_super_bindings"
-			}
-		]
-	},
-	{
-		"keys": [
-			"super+e"
-		],
-		"command": "sbp_move_to_paragraph",
-		"args": {
-			"direction": 1
-		},
-		"context": [
-			{
-				"key": "sbp_use_super_bindings"
-			}
-		]
 	},
 	{
 		"keys": [
