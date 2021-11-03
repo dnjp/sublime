@@ -55,4 +55,13 @@
 		],
 		"command": "build"
 	},
+	{
+		"keys": [
+			"super+e"
+		],
+		"command": "repl_transfer_current",
+		"args": {
+			"scope": "selection"
+		}
+	},
 ]

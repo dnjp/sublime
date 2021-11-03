@@ -9,4 +9,13 @@ nnoremap Q :q!<CR>
 nnoremap W :LspSave<CR>
 nnoremap gd :LspSymbolDefinition<CR>
 nnoremap gr :LspSymbolReferences<CR>
+nnoremap gR :LspSymbolRename<CR>
 nnoremap gi :LspSymbolImplementation<CR>
+nnoremap ge :NextResult<CR>
+nnoremap gE :PreviousResult<CR>
+nnoremap K :ReplTransferCurrent<CR>
+
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
