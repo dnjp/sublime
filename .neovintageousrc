@@ -7,6 +7,7 @@ nnoremap ! :!
 
 nnoremap Q :q!<CR>
 nnoremap W :LspSave<CR>
+nnoremap gD :LspGotoDiagnostic<CR>
 nnoremap gd :LspSymbolDefinition<CR>
 nnoremap gr :LspSymbolReferences<CR>
 nnoremap gR :LspSymbolRename<CR>
