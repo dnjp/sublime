@@ -6,24 +6,19 @@
   "reload_file_on_change": true,
   // spacing
   "tab_size": 8,
-  "margin": 1,
+  "margin": 15,
   "detect_indentation": false,
   "smart_indent": true,
   "indent_guide_options": [],
   "draw_indent_guides": false,
+  "draw_white_space": [
+    "selection_none"
+  ],
   //
   // Fonts
   //
-  // "font_face": "Lucida Grande",
-  // "font_face": "Lucida Sans Regular",
-  // "font_face": "Go Regular",
-  // "font_face": "Go Mono",
-  // "font_face": "iA Writer Quattro",
-  // "font_face": "SF Pro Regular",
-  // "font_face": "Monaco",
-  // "font_face": "SF Mono",
   "font_face": "iA Writer Mono S",
-  // "font_face": "Bitstream Vera Sans",
+  "font_size": 14,
   // make fonts _much_ more clear on macos
   "font_options": [
     "gray_antialias"
@@ -31,13 +26,10 @@
   "theme_font_options": [
     "gray_antialias"
   ],
-  "font_size": 13.75,
   // text
   "word_wrap": "auto",
   "wrap_width": 80,
   // popups
-  "mdpopups.user_css": "Packages/User/mdpopups.css",
-  "mdpopups.default_style": true,
   // highlighting
   "highlight_line": true,
   "highlight_gutter": true,
@@ -49,23 +41,22 @@
   // ui
   "inactive_sheet_dimming": false,
   "scroll_speed": 0.5,
-  "line_numbers": true,
-  "gutter": true,
+  "line_numbers": false,
+  "gutter": false,
   "show_syntax": false,
   "trim_trailing_white_space_on_save": "all",
   "ensure_newline_at_eof_on_save": true,
   "scroll_past_end": true,
   "mini_diff": "auto",
   "show_definitions": true,
-  "ui_separator": true,
-  "ui_wide_scrollbars": false,
   "overlay_scroll_bars": "system",
   // caret
   "caret_extra_top": 2,
   "caret_extra_bottom": 2,
   "caret_extra_width": 2,
   // visual
-  "fold_buttons": false,
+  "fold_buttons": true,
+  "fade_fold_buttons": true,
   "auto_hide_status_bar": false,
   "auto_hide_menu": false,
   "auto_hide_tabs": false,
@@ -90,68 +81,14 @@
     "Markdown",
     "Six",
     // "Vintage",
-    "Theme - Gravity",
     "Vintage",
     "Vintageous",
-    "NeoVintageous"
   ],
-  //
-  //
-  // vi mode
-  //
-  //
-  "vintageous_use_ctrl_keys": true,
-  "vintageous_default_mode": "",
-  "vintageous_reset_mode_when_switching_tabs": false,
-  "vintageous_use_sys_clipboard": true,
-  //
-  // plugins
-  //
-  "vintageous_enable_sneak": false,
-  "vintageous_enable_sublime": true,
-  "vintageous_bell_color_scheme": "light",
-  //
-  // keybindings
-  //
-  // Any keybinding defined in the default keymap file that has
-  // a "nv_handle_key" context constraint can be configured to delegate
-  // back to ST.
-  // See https://github.com/NeoVintageous/NeoVintageous/blob/master/Default.sublime-keymap
-  "vintageous_handle_keys": {
-    // The valid mode prefixes are:
-    //
-    //     n_ - Normal
-    //     i_ - Insert
-    //     v_ - Visual
-    //     V_ - Visual line
-    //     b_ - Visual block
-    //     s_ - Select
-    "i_<C-w>": true,
-    "v_<C-w>": true,
-    "n_<C-,>b": false,
-  },
-  //
-  // colors
-  //
-  "neovintageous_search_cur_style": "fill",
-  "neovintageous_search_inc_style": "fill",
-  "neovintageous_search_occ_style": "fill",
-  //
-  // version
-  //
-  "neovintageous_build_version": 11100,
   // color
-  "light_color_scheme": "Breakers.sublime-color-scheme",
-  "dark_color_scheme": "Mariana.sublime-color-scheme",
+  "light_color_scheme": "Writer.sublime-color-scheme",
+  "dark_color_scheme": "Writer Dark.sublime-color-scheme",
   "color_scheme": "auto",
-  // "theme": "Gravity.sublime-theme",
-  // "color_scheme": "Writer Dark.sublime-color-scheme",
-  //
-  // Gravity
-  ///
-  "gravity_title_bar": true,
-  "gravity_tab_height_short": true,
-  "gravity_selected_tab_bold": true,
-  "gravity_sidebar_header": false,
-  "gravity_org_label_size": true,
+  "dark_theme": "Adaptive.sublime-theme",
+  "light_theme": "Default.sublime-theme",
+  "theme": "auto",
 }
