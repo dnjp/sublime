@@ -18,6 +18,7 @@
   // Fonts
   //
   "font_face": "iA Writer Mono S",
+  // "font_face": "Lucida Grande Mono",
   "font_size": 14,
   // make fonts _much_ more clear on macos
   "font_options": [
@@ -87,7 +88,7 @@
   // color
   "light_color_scheme": "Writer.sublime-color-scheme",
   "dark_color_scheme": "Writer Dark.sublime-color-scheme",
-  "color_scheme": "auto",
+  "color_scheme": "Alabaster Dark.sublime-color-scheme",
   "dark_theme": "Adaptive.sublime-theme",
   "light_theme": "Default.sublime-theme",
   "theme": "auto",
