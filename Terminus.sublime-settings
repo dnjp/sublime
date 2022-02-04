@@ -1,3 +1,23 @@
 {
-  "theme": "default",
+  "default_config": {
+    "osx": "Zsh",
+  },
+  "shell_configs": [
+    {
+      "name": "Zsh",
+      "cmd": [
+        "zsh",
+        "-i",
+        "-l"
+      ],
+      "env": {
+        "INSIDE_SUBLIME": "1"
+      },
+      "enable": true,
+      "platforms": [
+        "linux",
+        "osx"
+      ]
+    }
+  ]
 }
