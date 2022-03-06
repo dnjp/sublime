@@ -29,6 +29,15 @@
   //
   {
     "keys": [
+      "ctrl+super+space"
+    ],
+    "command": "expand_selection",
+    "args": {
+      "to": "smart"
+    }
+  },
+  {
+    "keys": [
       "primary+shift+\\"
     ],
     "command": "filter_pipes_exec_prompt",
