@@ -1,0 +1,36 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+  "variables": {},
+  "rules": [
+    {
+      "class": "sidebar_label",
+      "font.size": 13,
+      "font.face": "Go Regular",
+    },
+    {
+      "class": "sidebar_heading",
+      "font.size": 12,
+      "font.face": "Go Regular",
+    },
+    {
+      "class": "tab_label",
+      "font.size": 12,
+      "font.face": "Go Regular",
+    },
+    {
+      "class": "auto_complete_label",
+      "font.size": 12,
+      "font.face": "Go Regular",
+    },
+    {
+      "class": "label_control",
+      "font.size": 11,
+      "font.face": "Go Regular",
+    },
+    {
+      "class": "auto_complete_popup",
+      "font.size": 12,
+      "font.face": "Go Mono",
+    },
+  ]
+}

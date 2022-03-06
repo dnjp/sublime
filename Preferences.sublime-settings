@@ -1,4 +1,5 @@
 {
+  "mdpopups.user_css": "Packages/User/mdpopups.css",
   // defaults
   "create_window_at_startup": false,
   // environment
@@ -18,6 +19,10 @@
   // Fonts
   //
   "font_face": "iA Writer Mono S",
+  // "font_face": "iA Writer Quattro S",
+  // "font_face": "Go Mono",
+  // "font_face": "GoMono Nerd Font Mono",
+  // "font_face": "Go",
   // "font_face": "Lucida Grande Mono",
   "font_size": 13,
   // make fonts _much_ more clear on macos
@@ -42,8 +47,10 @@
   // ui
   "inactive_sheet_dimming": false,
   "scroll_speed": 0.5,
-  "line_numbers": false,
-  "gutter": false,
+  "line_numbers": true,
+  "line_padding_bottom": 1,
+  "line_padding_top": 1,
+  "gutter": true,
   "show_syntax": false,
   "trim_trailing_white_space_on_save": "all",
   "ensure_newline_at_eof_on_save": true,
@@ -56,7 +63,7 @@
   "caret_extra_bottom": 2,
   "caret_extra_width": 2,
   // visual
-  "fold_buttons": true,
+  "fold_buttons": false,
   "fade_fold_buttons": true,
   "auto_hide_status_bar": false,
   "auto_hide_menu": false,
@@ -88,8 +95,12 @@
   // color
   "light_color_scheme": "Writer.sublime-color-scheme",
   "dark_color_scheme": "Writer Dark.sublime-color-scheme",
-  "light_theme": "Default.sublime-theme",
-  "dark_theme": "Default Dark.sublime-theme",
-  "theme": "Adaptive.sublime-theme",
+  "light_theme": "Reverse Gravity.sublime-theme",
+  "dark_theme": "Gravity.sublime-theme",
+  "theme": "auto",
   "color_scheme": "auto",
+  // gravity
+  "gravity_title_bar": true,
+  "gravity_tab_height_short": true,
+  "gravity_sidebar_header": false,
 }

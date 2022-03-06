@@ -1,17 +1,18 @@
 // These settings override both User and Default settings for the Markdown syntax
 {
-	"draw_centered": true,
-	"draw_indent_guides": false,
-	"extensions": [
-		"md"
-	],
-	"gutter": false,
-	"line_numbers": false,
-	"rulers": [],
-	"scroll_past_end": true,
-	"wrap_width": 80,
-	"word_wrap": true,
-	"line_padding_bottom": 3,
-	"line_padding_top": 3,
-	"draw_white_space": "none",
+  "draw_centered": true,
+  "draw_indent_guides": false,
+  "extensions": [
+    "md"
+  ],
+  "gutter": false,
+  "line_numbers": false,
+  "rulers": [],
+  "scroll_past_end": true,
+  "wrap_width": 80,
+  "word_wrap": true,
+  "line_padding_bottom": 3,
+  "line_padding_top": 3,
+  "draw_white_space": "none",
+  // "color_scheme": "MarkdownEditor.sublime-color-scheme",
 }
