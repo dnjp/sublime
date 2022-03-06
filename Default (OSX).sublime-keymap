@@ -29,6 +29,19 @@
   //
   {
     "keys": [
+      "primary+shift+\\"
+    ],
+    "command": "filter_pipes_exec_prompt",
+    "context": [
+      {
+        "key": "terminus_view",
+        "operator": "not_equal",
+        "operand": true
+      }
+    ]
+  },
+  {
+    "keys": [
       "ctrl+w"
     ],
     "command": "delete_word",
