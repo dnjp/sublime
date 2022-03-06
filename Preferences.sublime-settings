@@ -1,4 +1,27 @@
 {
+  "file_exclude_patterns": [
+    "*.pyc",
+    "*.pyo",
+    "*.exe",
+    "*.dll",
+    "*.obj",
+    "*.o",
+    "*.a",
+    "*.lib",
+    "*.so",
+    "*.dylib",
+    "*.ncb",
+    "*.sdf",
+    "*.suo",
+    "*.pdb",
+    "*.idb",
+    ".DS_Store",
+    ".directory",
+    "desktop.ini",
+    "*.class",
+    "*.psd",
+    "*.sublime-workspace"
+  ],
   "mdpopups.user_css": "Packages/User/mdpopups.css",
   // defaults
   "create_window_at_startup": false,

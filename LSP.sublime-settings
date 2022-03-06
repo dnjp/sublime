@@ -3,7 +3,7 @@
   // "log_server": [
   // 	"panel"
   // ],
-  "document_highlight_style": "",
+  "document_highlight_style": "underline",
   "inhibit_word_completions": true, // might not be a good idea
   "lsp_code_actions_on_save": {
     "source.fixAll": true,

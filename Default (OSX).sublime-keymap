@@ -1,4 +1,9 @@
 [
+  //
+  //
+  // tabs, sidebar
+  //
+  //
   {
     "keys": [
       "super+b",
@@ -17,53 +22,11 @@
     ],
     "command": "prev_view"
   },
-  {
-    "keys": [
-      "alt+`"
-    ],
-    "command": "toggle_terminus_panel"
-  },
-  {
-    "keys": [
-      "alt+m"
-    ],
-    "command": "markdown_preview",
-    "args": {
-      "target": "browser",
-      "parser": "markdown"
-    }
-  },
-  {
-    "keys": [
-      "ctrl+alt+t"
-    ],
-    "command": "terminus_open",
-    "args": {
-      "post_window_hooks": [
-        [
-          "carry_file_to_pane",
-          {
-            "direction": "down"
-          }
-        ]
-      ]
-    }
-  },
-  {
-    "keys": [
-      "alt+super+b"
-    ],
-    "command": "build"
-  },
-  {
-    "keys": [
-      "super+e"
-    ],
-    "command": "repl_transfer_current",
-    "args": {
-      "scope": "selection"
-    }
-  },
+  //
+  //
+  // Text Navigation / Manipulation
+  //
+  //
   {
     "keys": [
       "ctrl+w"
@@ -72,7 +35,14 @@
     "args": {
       "forward": false,
       "sub_words": true
-    }
+    },
+    "context": [
+      {
+        "key": "terminus_view",
+        "operator": "not_equal",
+        "operand": true
+      }
+    ]
   },
   {
     "keys": [
@@ -81,7 +51,14 @@
     "command": "run_macro_file",
     "args": {
       "file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"
-    }
+    },
+    "context": [
+      {
+        "key": "terminus_view",
+        "operator": "not_equal",
+        "operand": true
+      }
+    ]
   },
   {
     "keys": [
@@ -91,7 +68,14 @@
     "args": {
       "by": "subwords",
       "forward": false
-    }
+    },
+    "context": [
+      {
+        "key": "terminus_view",
+        "operator": "not_equal",
+        "operand": true
+      }
+    ]
   },
   {
     "keys": [
@@ -101,7 +85,14 @@
     "args": {
       "by": "subword_ends",
       "forward": true
-    }
+    },
+    "context": [
+      {
+        "key": "terminus_view",
+        "operator": "not_equal",
+        "operand": true
+      }
+    ]
   },
   {
     "keys": [
@@ -137,6 +128,36 @@
       "forward": true
     }
   },
+  //
+  //
+  // Build
+  //
+  //
+  {
+    "keys": [
+      "alt+super+b"
+    ],
+    "command": "build"
+  },
+  //
+  //
+  // REPL
+  //
+  //
+  {
+    "keys": [
+      "super+e"
+    ],
+    "command": "repl_transfer_current",
+    "args": {
+      "scope": "selection"
+    }
+  },
+  //
+  //
+  // LSP
+  //
+  //
   {
     "command": "lsp_document_symbols",
     "keys": [
@@ -215,4 +236,164 @@
       },
     ]
   },
+  //
+  //
+  // Terminus
+  //
+  //
+  {
+    "keys": [
+      "alt+`"
+    ],
+    "command": "terminus_open",
+  },
+  {
+    "keys": [
+      "alt+m"
+    ],
+    "command": "markdown_preview",
+    "args": {
+      "target": "browser",
+      "parser": "markdown"
+    }
+  },
+  {
+    "keys": [
+      "ctrl+alt+t"
+    ],
+    "command": "terminus_open",
+    "args": {
+      "post_window_hooks": [
+        [
+          "carry_file_to_pane",
+          {
+            "direction": "down"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "keys": [
+      "ctrl+primary+t"
+    ],
+    "command": "terminus_open",
+    "args": {
+      "post_window_hooks": [
+        [
+          "carry_file_to_pane",
+          {
+            "direction": "down"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "keys": [
+      "primary+w"
+    ],
+    "command": "terminus_close",
+    "context": [
+      {
+        "key": "terminus_view"
+      }
+    ]
+  },
+  {
+    "keys": [
+      "alt+left"
+    ],
+    "command": "terminus_keypress",
+    "args": {
+      "key": "b",
+      "alt": true
+    },
+    "context": [
+      {
+        "key": "terminus_view"
+      }
+    ]
+  },
+  {
+    "keys": [
+      "alt+right"
+    ],
+    "command": "terminus_keypress",
+    "args": {
+      "key": "f",
+      "alt": true
+    },
+    "context": [
+      {
+        "key": "terminus_view"
+      }
+    ]
+  },
+  //
+  //
+  // Origami
+  //
+  //
+  {
+    "keys": [
+      "super+;",
+    ],
+    "command": "zoom_pane",
+    "args": {
+      "fraction": 0.9
+    }
+  },
+  {
+    "keys": [
+      "super+shift+;"
+    ],
+    "command": "unzoom_pane",
+    "args": {}
+  },
+  {
+    "keys": [
+      "alt+k",
+    ],
+    "command": "travel_to_pane",
+    "args": {
+      "direction": "up"
+    }
+  },
+  {
+    "keys": [
+      "alt+l",
+    ],
+    "command": "travel_to_pane",
+    "args": {
+      "direction": "right"
+    }
+  },
+  {
+    "keys": [
+      "alt+j",
+    ],
+    "command": "travel_to_pane",
+    "args": {
+      "direction": "down"
+    }
+  },
+  {
+    "keys": [
+      "alt+h",
+    ],
+    "command": "travel_to_pane",
+    "args": {
+      "direction": "left"
+    }
+  },
+  {
+    "keys": [
+      "primary+shift+w"
+    ],
+    "command": "destroy_pane",
+    "args": {
+      "direction": "self"
+    }
+  }
 ]
